@@ -1,0 +1,109 @@
+/*Color Palette
+https://coolors.co/palette/264653-2a9d8f-e9c46a-fefae0-e76f51
+#264653-dark blue
+#2a9d8f-green
+#e9c46a-yellow
+#f2cc8f-pastel yellow
+#e76f51-orange
+*/
+
+
+/* Global Styles
+------------------------------------------*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    color:#264653;
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+a{
+    color:#2a9d8f;
+}
+a:hover{
+    text-decoration: none;
+}
+img {
+
+    width: 300px;
+}
+h1{
+    font-size: 100px;
+    line-height: 1;
+}
+h2 {
+    font-size: 45px;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+    
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* profile
+------------------------------------------*/
+header {
+    background: #e9c46a;
+}
+
+/*Projects
+------------------------------------------*/
+.projects{
+background:#f2cc8f;
+}
+
+.projects .btn{
+    background: #e9c46a;
+    color: #264653;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects .btn:hover{
+    background: rgba(233,196,106,65%);
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #264653;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+}
+
+/*Work Experience
+------------------------------------------*/
+.work-experience{
+    background: #f4a261;
+}
+/*Education
+------------------------------------------*/
+.education {
+    background: #2a9d8f;
+}
+
+
+/*Contact Info
+------------------------------------------*/
+
+footer{
+    background: #e9c46a;
+}
